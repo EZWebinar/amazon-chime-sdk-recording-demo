@@ -1,7 +1,7 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0
 
-FROM ubuntu:18.04
+FROM 286882951540.dkr.ecr.us-east-1.amazonaws.com/ew-chime-recording-test:latest
 
 ENV DEBIAN_FRONTEND noninteractive
 
