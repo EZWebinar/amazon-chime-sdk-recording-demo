@@ -16,7 +16,7 @@ class S3Uploader {
     constructor(bucket, key) {
         this.bucket = bucket;
         this.key = key;
-        this.s3Uploader = new AWS.S3({ params: { Bucket: bucket, Key: key } });
+        this.s3Uploader = new AWS.S3({ params: { Bucket: bucket, Key: key,region:"us-east-1" } });
         console.log(`[upload process] constructed a S3 object with bucket: ${this.bucket}, key: ${this.key}`);
     }
 
